@@ -12,7 +12,6 @@ public class Duke {
      * by creating a new save file
      */
     public Duke() {
-
         if (Storage.saveExists()) {
             ls = Storage.loadSave();
         } else {
